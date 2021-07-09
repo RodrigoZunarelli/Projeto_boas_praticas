@@ -2,11 +2,12 @@
 import Utils from '../src/service/Utils';
 
 /** Pages **/
-import { error404, home } from './views/pages/index';
+import { error404, home, jedi } from './views/pages/index';
 
 /** Routes **/
 let routes = {
     '/': home,
+    '/jedi': jedi
 }
 
 const router = async () => {
@@ -25,4 +26,4 @@ const router = async () => {
 window.addEventListener('hashchange', router);
 
 /**oberva carregamento da pagina */
-window.addEventListener('load', router);
+window.addEventListener('load', router);ow.addEventListener('load', router);
