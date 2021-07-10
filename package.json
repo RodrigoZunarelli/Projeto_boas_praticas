@@ -4,8 +4,9 @@
   "description": "Template FullJS",
   "main": "index.js",
   "scripts": {
+    "start": "sass --watch src/assets/sass/style.scss:src/css/style.css & webpack serve --open --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch src/assets/sass/commons/style.scss:src/css/style.css",
+    "sass": "sass --watch src/assets/sass/style.scss:src/css/style.css",
     "webpack": "webpack serve --open --config webpack.dev.js",
     "build": "node-sass src/assets/sass/style.scss > src/css/style.css && webpack --config webpack.prod.js"
   },
