@@ -52,6 +52,8 @@ h1, h2, h3, h4, h5, p, b, span{
   align-items: center;
   font-family: $fontFamilyDefault;
 
+
+
   & img{
     height: 190px;
     width: auto;
@@ -72,7 +74,9 @@ h1, h2, h3, h4, h5, p, b, span{
   height: 100vh;
 
   & h1, h2, h3, h4, h5, p{
+    padding-top: 100px;
     text-transform: uppercase;
+    
   }
 
   & img{

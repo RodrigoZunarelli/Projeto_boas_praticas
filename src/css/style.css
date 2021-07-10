@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, p, b, span {
     padding-top: 60px; }
     .footer-contain img:hover {
       transform: scale(1.2); }
+      .footer-contain p{
+        padding-top: 140px;
+      }
+    
 
 .error-default {
   background-size: cover;
