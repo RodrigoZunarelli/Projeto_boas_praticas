@@ -9,3 +9,5 @@ Para iniciar em modo de desenvolvimento:
 
 
 PROJETO BEM LEGAL DO HIRING CODERS 2.
+
+Veja o projeto online [clique aqui](https://projeto-boas-praticas.vercel.app/)
