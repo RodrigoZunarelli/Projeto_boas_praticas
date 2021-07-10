@@ -52,7 +52,9 @@ h1, h2, h3, h4, h5, p, b, span{
   align-items: center;
   font-family: $fontFamilyDefault;
 
-
+  .footer-contain p{
+    padding-top: 140px;
+  }
 
   & img{
     height: 190px;
