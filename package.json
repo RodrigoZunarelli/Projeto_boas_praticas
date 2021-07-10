@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "build": "^0.1.4",
     "clean-webpack-plugin": "^3.0.0",
     "node-sass": "^5.0.0",
     "sweetalert2": "^10.15.5",

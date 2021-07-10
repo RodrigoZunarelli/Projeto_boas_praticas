@@ -1,5 +1,5 @@
 import darthError from '../../../assets/images/elements/404_darth-vader-png.jpg';
-import errorBg from '../../../assets/images/background/bg3.jpeg'; 
+import errorBg from '../../../assets/images/background/bg3.jpg'; 
 
 let Error404 = {
     is_private: false,
